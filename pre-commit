@@ -1,0 +1,10 @@
+#!/bin/sh
+
+RESULT="
+user.name: $(git config user.name)
+user.email: $(git config user.email)";
+
+zenity --question --text "<b>Current GIT profile</b>${RESULT}" --width=400;
+if [ $? = 1 ]; then
+    exit 1;
+fi
