@@ -3,9 +3,9 @@ Git global hooks
 
 ## Installation
 ```bash
-git clone https://github.com/darkjinnee/githooks.git
-git config --global core.hooksPath ~/githooks
-chmod -R +x ./githooks
+$ git clone https://github.com/darkjinnee/githooks.git
+$ git config --global core.hooksPath ~/githooks
+$ chmod -R +x ./githooks
 ```
 
 ### Hide changes
